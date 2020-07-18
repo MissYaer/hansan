@@ -1,0 +1,37 @@
+{
+   "name": "hansan",
+   "version": "0.1",
+   "description": "憨三,我偷辣条养你啊^_^",
+   "manifest_version": 2,
+   "icons": {
+        "16": "./images/redcat16.png",
+        "32": "./images/redcat32.png",
+        "48": "./images/redcat48.png",
+        "128": "./images/redcat128.png"
+   },
+   "page_action": {
+        "default_icon": {
+            "16": "./images/cat16.png",
+            "32": "./images/cat32.png",
+            "48": "./images/cat48.png",
+            "128": "./images/cat128.png"
+        },
+        "default_popup": "./html/popup.html",
+        "default_title": "憨三"
+   },
+   "permissions": [
+       "http://*/*",
+       "https://*/*",
+       "webNavigation",
+       "activeTab",
+       "tabs",
+       "storage",
+       "contextMenus",
+       "management",
+       "declarativeContent"
+    ],
+   "background": {
+        "scripts": ["./js/backgroundConfig.js","./js/ContextMenus.js","./js/backgroundListener.js" ],
+        "persistent": true 
+   }
+}
