@@ -1,7 +1,2 @@
-<<<<<<< HEAD
-This is a google browser extension.
-B站偷辣条。。。
-=======
-# hansan
-bilibili----google浏览器插件
->>>>>>> fd494d84680e059e7a0d359ef314e61fb365256e
+这是一个google浏览器扩展  
+可以用于b站自动收取辣条...
