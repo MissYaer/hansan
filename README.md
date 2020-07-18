@@ -1,2 +1,3 @@
 - 这是一个google浏览器扩展  
 - 可以用于b站自动收取辣条...
+git: https://github.com/shp32131/hansan.git
